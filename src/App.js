@@ -3,7 +3,7 @@ import './App.css';
 
 class App extends Component {
   state = {
-    count:1
+    count:0
   };
   handleClick = () => {
     this.setState(({count}) => ({count:count+1}));
